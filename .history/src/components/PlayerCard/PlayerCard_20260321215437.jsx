@@ -15,7 +15,6 @@ const PlayerCard = ({player,setAvailableBalance,availableBalance,purchasedPlayer
                 }
                 if(purchasedPlayers.length===6){
                     toast("6 players already selected")
-                    return
                 }
 
          setIsSelected(true)

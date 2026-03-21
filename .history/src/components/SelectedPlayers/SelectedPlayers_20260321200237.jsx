@@ -8,7 +8,7 @@ const SelectedPlayers = ({purchasedPlayers}) => {
             {
                 purchasedPlayers.map(player=><SelectedCard player={player}></SelectedCard>)
             }
-          
+          {/* <SelectedCard></SelectedCard> */}
         </div>
     );
 };

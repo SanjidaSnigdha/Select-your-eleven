@@ -1,14 +1,12 @@
 import React from 'react';
-import SelectedCard from '../SelectedCard/SelectedCard';
 
 const SelectedPlayers = ({purchasedPlayers}) => {
     console.log(purchasedPlayers)
     return (
         <div className='max-w-[1200px] mx-auto'>
-            {
-                purchasedPlayers.map(player=><SelectedCard player={player}></SelectedCard>)
-            }
-          
+           <div className='border-2 border-red-400'>
+
+           </div>
         </div>
     );
 };

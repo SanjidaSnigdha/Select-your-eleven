@@ -5,10 +5,7 @@ const SelectedPlayers = ({purchasedPlayers}) => {
     console.log(purchasedPlayers)
     return (
         <div className='max-w-[1200px] mx-auto'>
-            {
-                purchasedPlayers.map(player=><SelectedCard player={player}></SelectedCard>)
-            }
-          
+          <SelectedCard></SelectedCard>
         </div>
     );
 };

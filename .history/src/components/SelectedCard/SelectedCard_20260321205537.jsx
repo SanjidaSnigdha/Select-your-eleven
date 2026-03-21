@@ -3,9 +3,7 @@ import React from 'react';
 const SelectedCard = ({player,removePlayer}) => {
     console.log(player)
     const handleRemove = ()=>{
-        removePlayer(
-            player
-        )
+        removePlayer("i am from card")
     }
     return (
          <div className='border-2 mt-5 p-3 border-gray-300 flex justify-between items-center rounded-xl'>

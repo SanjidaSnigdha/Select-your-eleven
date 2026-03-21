@@ -19,9 +19,6 @@ function App() {
   const removePlayer = (p) =>{
     const filteredData = purchasedPlayers.filter(ply=> ply.player_name!==p.player_name)
     console.log(filteredData)
-    setPurchasedPlayers(filteredData)
-    setAvailableBalance(availableBalance+parseInt(p.price.split("USD").join("").
-                split(",").join("")))
 
   }
 

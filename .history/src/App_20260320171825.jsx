@@ -14,7 +14,7 @@ const playersPromise = fetchPlayers()
 
 function App() {
   const [toggle,setToggle] = useState(true)
-  const [availableBalance,setAvailableBalance] = useState(1000000)
+  const [availableBalance,setAvailableBalance] = useState(6000000000)
 
   return (
     <>
@@ -31,7 +31,7 @@ function App() {
      {
       toggle === true?<Suspense fallback={<span className="loading loading-spinner loading-xl"></span>
 }>
-    <AvailablePlayers availableBalance={availableBalance} setAvailableBalance={setAvailableBalance} playersPromise={playersPromise}></AvailablePlayers>
+    <AvailablePlayers setAvailableBalance={setAvailableBalance} playersPromise={playersPromise}></AvailablePlayers>
 </Suspense>:<SelectedPlayers></SelectedPlayers>
 
      }

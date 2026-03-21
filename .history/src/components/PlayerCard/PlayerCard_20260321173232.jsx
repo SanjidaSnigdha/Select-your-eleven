@@ -15,7 +15,6 @@ const PlayerCard = ({player,setAvailableBalance,availableBalance,purchasedPlayer
 
          setIsSelected(true)
                 setAvailableBalance(availableBalance - playerPrice);
-                setPurchasedPlayers([...purchasedPlayers,playerData])
                 
 
     };

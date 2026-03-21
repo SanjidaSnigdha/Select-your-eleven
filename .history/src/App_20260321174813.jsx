@@ -16,6 +16,7 @@ function App() {
   const [toggle,setToggle] = useState(true)
   const [availableBalance,setAvailableBalance] = useState(1000000)
   const [purchasedPlayers,setPurchasedPlayers] = useState([])
+  console.log(purchasedPlayers)
 
   return (
     <>
@@ -33,7 +34,7 @@ function App() {
       toggle === true?<Suspense fallback={<span className="loading loading-spinner loading-xl"></span>
 }>
     <AvailablePlayers purchasedPlayers={purchasedPlayers} setPurchasedPlayers={setPurchasedPlayers} availableBalance={availableBalance} setAvailableBalance={setAvailableBalance} playersPromise={playersPromise}></AvailablePlayers>
-</Suspense>:<SelectedPlayers purchasedPlayers={purchasedPlayers}></SelectedPlayers>
+</Suspense>:<SelectedPlayers></SelectedPlayers>
 
      }
 

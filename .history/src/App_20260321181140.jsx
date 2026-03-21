@@ -16,6 +16,7 @@ function App() {
   const [toggle,setToggle] = useState(true)
   const [availableBalance,setAvailableBalance] = useState(1000000)
   const [purchasedPlayers,setPurchasedPlayers] = useState([])
+  console.log(purchasedPlayers)
 
   return (
     <>

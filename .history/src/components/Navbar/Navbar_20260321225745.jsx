@@ -5,13 +5,13 @@ import dollarImg from "../../assets/dollar-1.png"
 const Navbar = ({availableBalance}) => {
     return (
         
-         <div className="navbar max-w-[1200px] mx-auto">
+         <div className="navbar max-w-[1200px] mx-auto justify-between items-center">
           <div className="flex-1">
             <a className="text-xl">
               <img className="w-60px h-50px mt-4" src={navImg} alt="" />
            </a>
           </div>
-          <div className='flex justify-between items-center text-gray-500 w-60 h-20 font-semibold mr-30 gap-4'>
+          <div className='flex justify-between items-center text-gray-500 w-60 h-20 font-semibold'>
             <a>Home</a>
             <a>Fixture</a>
             <a>Teams</a>

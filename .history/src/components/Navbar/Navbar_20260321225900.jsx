@@ -11,7 +11,7 @@ const Navbar = ({availableBalance}) => {
               <img className="w-60px h-50px mt-4" src={navImg} alt="" />
            </a>
           </div>
-          <div className='flex justify-between items-center text-gray-500 w-60 h-20 font-semibold mr-30 gap-4'>
+          <div className='flex justify-between items-center text-gray-500 w-60 h-20 font-semibold mr-8'>
             <a>Home</a>
             <a>Fixture</a>
             <a>Teams</a>

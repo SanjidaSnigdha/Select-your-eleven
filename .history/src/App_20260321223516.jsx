@@ -6,7 +6,6 @@ import AvailablePlayers from './components/AvailablePlayers/AvailablePlayers'
 import SelectedPlayers from './components/SelectedPlayers/SelectedPlayers'
 import Navbar from './components/Navbar/Navbar'
 import { Suspense, useState } from 'react'
-import Banner from './components/Banner/Banner';
 
 const fetchPlayers = async () =>{
   const res = await fetch("/players.json")
@@ -31,7 +30,6 @@ function App() {
   return (
     <>
    <Navbar availableBalance={availableBalance}></Navbar>
-   <Banner></Banner>
    <div className='max-w-[1200px] mx-auto flex justify-between items-center'>
     <h1 className='font-bold text-2xl'>{
     toggle===true?"Available players":`Selected players(${purchasedPlayers.length}/6)`}</h1>

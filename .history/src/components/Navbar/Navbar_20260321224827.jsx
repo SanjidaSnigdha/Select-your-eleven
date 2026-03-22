@@ -11,13 +11,13 @@ const Navbar = ({availableBalance}) => {
               <img className="w-60px h-50px mt-4" src={navImg} alt="" />
            </a>
           </div>
-          <div className='flex justify-between items-center text-gray-500 w-60 h-20 font-semibold mr-30 gap-4'>
+          <div className='flex justify-between items-center text-gray-100'>
             <a>Home</a>
             <a>Fixture</a>
             <a>Teams</a>
             <a>Schedules</a>
           </div>
-          <div className="flex items-center gap-1 ml-4">
+          <div className="flex items-center gap-1">
           <span className='mr-1'>{availableBalance}</span>
           <span className='mr-1'>Coin</span>
           <img className="w-5 h-5" src={dollarImg} alt="" />

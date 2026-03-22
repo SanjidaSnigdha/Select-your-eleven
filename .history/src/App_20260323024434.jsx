@@ -55,11 +55,13 @@ function App() {
   
 
       <ToastContainer></ToastContainer>
-      <div className='relative mt-25 -mb-12'>
+      <div className='relative mt-20'>
+        <div className='-mt-52'>
+              <NewsLetter></NewsLetter>
+              </div>
 
-           <NewsLetter></NewsLetter>
-  <Footer></Footer>
       </div>
+      <Footer></Footer>
      
     </>
   )

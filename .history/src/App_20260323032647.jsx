@@ -55,10 +55,11 @@ function App() {
   
 
       <ToastContainer></ToastContainer>
-      <div className='relative mt-25 -mb-12'>
-
+      <div className='relative'>
+        
            <NewsLetter></NewsLetter>
-  <Footer></Footer>
+
+      <Footer></Footer>
       </div>
      
     </>

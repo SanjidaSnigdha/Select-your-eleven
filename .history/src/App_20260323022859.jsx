@@ -55,11 +55,8 @@ function App() {
   
 
       <ToastContainer></ToastContainer>
-      <div className='relative mt-25 -mb-12'>
-
-           <NewsLetter></NewsLetter>
-  <Footer></Footer>
-      </div>
+      <NewsLetter className="fixed bottom-0 left-1/2 transform -translate-x-1/2 z-50 w-full"></NewsLetter>
+      <Footer></Footer>
      
     </>
   )

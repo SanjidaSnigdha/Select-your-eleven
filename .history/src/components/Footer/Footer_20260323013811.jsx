@@ -3,9 +3,9 @@ import footerImg from "../../assets/logo-footer.png"
 
 const Footer = () => {
     return (
-        <footer className="bg-[#040D11] text-base-content p-10 mt-0 w-full h-[530px] relative">
+        <footer className="bg-[#040D11] text-base-content p-10 mt-40 w-full h-[580px] relative">
             {/* Footer Image */}
-            <div className='flex justify-center mt-30'>
+            <div className='flex justify-center mt-50'>
             <img src={footerImg} alt="" className='w-20 h-20 mb-8'/>
             </div>
    <div className='flex flex-col md:flex-row justify-between gap-8'>

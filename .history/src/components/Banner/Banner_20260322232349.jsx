@@ -8,7 +8,7 @@ const Banner = () => {
            <div>
             <h1 className='font-bold w-[970px] h-[60px] text-[#FFFFFF] w-2/12 mx-auto text-center mt-2 text-xl'>Assemble Your Ultimate Dream 11 Cricket Team</h1>
             <p className='text-[#FFFFFF]/70 text-center'>Beyond Boundaries Beyond Limits</p>
-            <button className='btn border-amber-400 p-1 flex mt-8 rounded-xl font-bold bg-[#E7FE29] w-2/12 mx-auto text-center items-center'>Claim Free Credit</button>
+            <button className='btn border-1 flex mt-8 rounded-xl font-bold bg-[#E7FE29] w-2/12 mx-auto text-center items-center'>Claim Free Credit</button>
            </div>
         </div>
         

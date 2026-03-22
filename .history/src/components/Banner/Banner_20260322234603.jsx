@@ -3,7 +3,7 @@ import bannerImg from '../../assets/banner-main.png'
 
 const Banner = () => {
     return (
-        <div className='max-w-[1200px] mx-auto h-[475px] bg-[#131313]/90 mt-8 mb-10 rounded-3xl'>
+        <div className='max-w-[1200px] mx-auto h-[475px] bg-[#131313]/40 mt-8 mb-10 rounded-3xl'>
            <img src={bannerImg} alt="" className='w-2/12 mx-auto p-10'/> 
            <div>
             <h1 className='font-bold w-[970px] h-[60px] text-[#FFFFFF] w-2/12 mx-auto text-center mt-2 text-xl'>Assemble Your Ultimate Dream 11 Cricket Team</h1>
